@@ -161,13 +161,11 @@ section {
 
 .glitch {
     font-size: 2.5rem;
-    color: var(--text-primary);
+    color: var(--primary-pink);
     border: none;
     margin-bottom: 2rem;
     position: relative;
-    background: var(--primary-pink);
-    color: var(--bg-color);
-    padding: 0 10px;
+    padding: 0;
     display: inline-block;
 }
 
@@ -186,16 +184,6 @@ section {
     padding: 2rem;
     background: rgba(26, 26, 26, 0.5);
     position: relative;
-}
-.p-box::before {
-    content: "SYS_ABOUT";
-    position: absolute;
-    top: -15px;
-    left: 20px;
-    background: var(--bg-color);
-    padding: 0 10px;
-    color: var(--primary-pink);
-    font-weight: bold;
 }
 
 .about-text p {
