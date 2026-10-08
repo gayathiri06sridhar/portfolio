@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathiri Sridhar | Software Engineer</title>
+    <meta name="description" content="Portfolio of Gayathiri Sridhar, a Computer Science undergraduate specializing in Generative AI, backend engineering, and machine learning.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GS.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Canvas -->
+    <section id="hero" class="hero">
+        <canvas id="bg-canvas"></canvas>
+        <div class="hero-content">
+            <div class="profile-img-placeholder"></div>
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Gayathiri Sridhar.</h1>
+            <h2 class="title">I build intelligent backend systems.</h2>
+            <p class="tagline">I'm a software engineer specializing in Generative AI, building production-grade RAG applications, and delivering robust machine learning solutions.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">Check out my work</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about section-alt">
+            <div class="section-content section-hidden">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-inner">
+                    <div class="about-text">
+                        <p>I am a Computer Science undergraduate with hands-on experience building production-grade Retrieval-Augmented Generation (RAG) applications, AI-powered backend systems, and machine learning solutions.</p>
+                        <p>Passionate about Generative AI, backend engineering, and applied machine learning, with proven leadership across university innovation and research initiatives.</p>
+                    </div>
+                    <div class="education card">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <h4>B.E. Computer Science Engineering</h4>
+                            <p>Kingston Engineering College</p>
+                            <span class="highlight">CGPA: 9.16</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-content section-hidden">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category card">
+                        <h3>AI & Machine Learning</h3>
+                        <ul class="skill-list">
+                            <li>LangChain & LangGraph</li>
+                            <li>Scikit-learn & PyTorch</li>
+                            <li>TensorFlow</li>
+                            <li>RAG & Vector Search</li>
+                            <li>AI Agents</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category card">
+                        <h3>Backend & Databases</h3>
+                        <ul class="skill-list">
+                            <li>Python & Java</li>
+                            <li>FastAPI & REST APIs</li>
+                            <li>PostgreSQL</li>
+                            <li>pgvector</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category card">
+                        <h3>Data Science</h3>
+                        <ul class="skill-list">
+                            <li>Pandas & NumPy</li>
+                            <li>NLTK</li>
+                            <li>Feature Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category card">
+                        <h3>DevOps & Tools</h3>
+                        <ul class="skill-list">
+                            <li>Docker & Git</li>
+                            <li>Node.js</li>
+                            <li>Google Colab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-alt">
+            <div class="section-content section-hidden">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Generative AI Intern</h3>
+                                <h4>Titan Company Limited</h4>
+                            </div>
+                            <div class="timeline-date">June 2026</div>
+                        </div>
+                        <ul class="experience-details">
+                            <li>Developed a production-grade RAG chatbot for Titan's Taneira division, enabling semantic search across enterprise documentation and reducing manual knowledge lookup.</li>
+                            <li>Built a standalone ingestion pipeline supporting PDF parsing, chunking, embedding generation, vector indexing, and incremental knowledge-base updates without redeploying the chatbot.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span><span>FastAPI</span><span>LangChain</span><span>PostgreSQL</span><span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-content section-hidden">
+                <h2 class="section-title">Some Things I've Built</h2>
+                <div class="projects-grid">
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>4D lung cancer radiotherapy dose distributor</h3>
+                        </div>
+                        <p class="project-desc">An automated pipeline to predict tumor motion, estimate uncertainty, establish safety margins, and automatically trigger treatment replanning alerts.</p>
+                        <ul class="project-tech-list">
+                            <li>Digital twin</li>
+                            <li>nibabel</li>
+                            <li>pydicom</li>
+                        </ul>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>Persona</h3>
+                        </div>
+                        <p class="project-desc">Mental Health Support Chatbot giving students a private first point of contact for mental health support. Tested with 100+ undergraduates.</p>
+                        <ul class="project-tech-list">
+                            <li>AI Agents</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>Evoshield</h3>
+                        </div>
+                        <p class="project-desc">An adaptive firewall using a deceptive sandbox environment to trap and analyze mutating, AI-generated malware in real time.</p>
+                        <ul class="project-tech-list">
+                            <li>Machine Learning</li>
+                            <li>Security</li>
+                        </ul>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>MEMORA</h3>
+                        </div>
+                        <p class="project-desc">Wearable smartwatch-based system tracking fall events and location for dementia patients. Built backend APIs and ESP32 integration.</p>
+                        <ul class="project-tech-list">
+                            <li>IoT</li>
+                            <li>Backend APIs</li>
+                        </ul>
+                    </div>
+                    <div class="project-card card">
+                        <div class="project-header">
+                            <span class="folder-icon">📁</span>
+                            <h3>Snipcraft</h3>
+                        </div>
+                        <p class="project-desc">Browser toolkit for recording, editing, and exporting video without switching apps. Built recording module using an FFmpeg WASM pipeline.</p>
+                        <ul class="project-tech-list">
+                            <li>WASM</li>
+                            <li>FFmpeg</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-alt">
+            <div class="section-content section-hidden">
+                <h2 class="section-title text-center">Get In Touch</h2>
+                <div class="contact-inner">
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open!</p>
+                    <a href="mailto:gayathirisridhar30@gmail.com" class="btn primary">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">GitHub</a>
+        </div>
+        <p>Designed & Built by Gayathiri Sridhar</p>
+    </footer>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
